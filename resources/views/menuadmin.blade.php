@@ -44,7 +44,7 @@
 		</div>
 	</nav>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(images/FONDOADMINISTRATIVO.jpg)">
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style={{asset"background-image: url(images/FONDOADMINISTRATIVO.jpg)")}}>
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -58,13 +58,13 @@
 					</div>
 <center>
 	<a href="{{route('patientList')}}">>
-					<button class="btn -info"><font size="4">RESERVAS PENDIENTES</font><br><br><img src="images/iconreserv.jpg" width="150"></button>
+					<button class="btn -info"><font size="4">RESERVAS PENDIENTES</font><br><br><img src={{asset"images/iconreserv.jpg")}} width="150"></button>
 	</a>
 	<a href="{{route('seenurse')}}">				
 					<button class="btn -info"><font size="4">LISTADO DE ENFERMEROS</font><br><br><img src="images/listado.jpg" width="150"></button>
 	</a>
     <a href="{{route('saveinsumo')}}">				
-        <button class="btn -info"><font size="4">INSUMOS</font><br><br><img src="images/insumos.jpg" width="150"></button>
+        <button class="btn -info"><font size="4">INSUMOS</font><br><br><img src={{asset"images/insumos.jpg")}} width="150"></button>
 </a>
 				
 </center>							
@@ -96,17 +96,17 @@
 	</div>
 	
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<script src="js/bootstrap-datepicker.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src={{asset"js/jquery.min.js")}}></script>
+	<script src={{asset"js/jquery.easing.1.3.js")}}></script>
+	<script src={{asset"js/bootstrap.min.js")}}></script>
+	<script src={{asset"js/jquery.waypoints.min.js")}}></script>
+	<script src={{asset"js/owl.carousel.min.js")}}></script>
+	<script src={{asset"js/jquery.countTo.js")}}></script>
+	<script src={{asset"js/jquery.stellar.min.js")}}></script>
+	<script src={{asset"js/jquery.magnific-popup.min.js")}}></script>
+	<script src={{asset"js/magnific-popup-options.js")}}></script>
+	<script src={{asset"js/bootstrap-datepicker.min.js")}}></script>
+	<script src={{asset"js/main.js")}}></script>
 
 	</body>
 </html>

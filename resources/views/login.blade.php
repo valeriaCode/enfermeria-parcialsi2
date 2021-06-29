@@ -6,16 +6,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Enfermeria-Clientes</title>
 	
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href={{asset"css/animate.css")}}>
+	<link rel="stylesheet" href={{asset"css/icomoon.css")}}>
+	<link rel="stylesheet" href={{asset"css/themify-icons.css")}}>
+	<link rel="stylesheet" href={{asset"css/bootstrap.css")}}>
+	<link rel="stylesheet" href={{asset"css/magnific-popup.css")}}>
+	<link rel="stylesheet" href={{asset"css/bootstrap-datepicker.min.css")}}>
+	<link rel="stylesheet" href={{asset"css/owl.carousel.min.css")}}>
+	<link rel="stylesheet" href={{asset"css/owl.theme.default.min.css")}}>
+	<link rel="stylesheet" href={{asset"css/style.css")}}>
+	<script src={{asset"js/modernizr-2.6.2.min.js")}}></script>
 
 
 	</head>
@@ -44,7 +44,7 @@
 		</div>
 	</nav>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(images/img_bg_2.jpg)">
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style={{asset"background-image: url(images/img_bg_2.jpg)")}}>
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -58,10 +58,10 @@
 					</div>
 <center>
 	<a href="{{route('reservarClient')}}">>
-					<button class="btn btn-info"><font size="4">RESERVAS</font><br><br><img src="images/reserva.png" width="150"></button>
+					<button class="btn btn-info"><font size="4">RESERVAS</font><br><br><img src={{asset"images/reserva.png")}} width="150"></button>
 	</a>
 	<a href="{{route('catalogo')}}">				
-					<button class="btn btn-info"><font size="4">PRECIOS</font><br><br><img src="images/precio.png" width="150"></button>
+					<button class="btn btn-info"><font size="4">PRECIOS</font><br><br><img src={{asset"images/precio.png")}} width="150"></button>
 	</a>
 				
 </center>							

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Precios</title>
-	<meta name="author" content="chiphysi" />
+	
 
 
 	<meta property="og:title" content=""/>
@@ -18,16 +18,16 @@
 	<meta name="twitter:card" content="" />
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href={{asset("css/animate.css")}}>
+	<link rel="stylesheet" href={{asset("css/icomoon.css")}}>
+	<link rel="stylesheet" href={{asset("css/themify-icons.css")}}>
+	<link rel="stylesheet" href={{asset("css/bootstrap.css")}}>
+	<link rel="stylesheet" href={{asset("css/magnific-popup.css")}}>
+	<link rel="stylesheet" href={{asset("css/bootstrap-datepicker.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/owl.carousel.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/owl.theme.default.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/style.css")}}>
+	<script src={{asset("js/modernizr-2.6.2.min.js")}}></script>
 
 	</head>
 	<body>
@@ -169,16 +169,16 @@
 	</div>
 	
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<script src="js/bootstrap-datepicker.min.js"></script>
+	<script src={{asset("js/jquery.min.js")}}></script>
+	<script src={{asset("js/jquery.easing.1.3.js")}}></script>
+	<script src={{asset("js/bootstrap.min.js")}}></script>
+	<script src={{asset("js/jquery.waypoints.min.js")}}></script>
+	<script src={{asset("js/owl.carousel.min.js")}}></script>
+	<script src={{asset("js/jquery.countTo.js")}}></script>
+	<script src={{asset("js/jquery.stellar.min.js")}}></script>
+	<script src={{asset("js/jquery.magnific-popup.min.js")}}></script>
+	<script src={{asset("js/magnific-popup-options.js")}}></script>
+	<script src={{asset("js/bootstrap-datepicker.min.js")}}></script>
 	
 
 
