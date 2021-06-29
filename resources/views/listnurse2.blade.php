@@ -2,15 +2,15 @@
 <html>
 	<head>
 	
-	<link rel={{asset("stylesheet")}} href={{asset("css/animate.css")}}>
-	<link rel={{asset("stylesheet")}} href={{asset("css/icomoon.css")}}>
-	<link rel={{asset("stylesheet")}} href={{asset("css/themify-icons.css")}}>
-	<link rel={{asset("stylesheet")}} href={{asset("css/bootstrap.css")}}>
-	<link rel={{asset("stylesheet")}} href={{asset("css/magnific-popup.css")}}>
-	<link rel={{asset("stylesheet")}} href={{asset("css/bootstrap-datepicker.min.css")}}>
-	<link rel={{asset("stylesheet")}} href={{asset("css/owl.carousel.min.css")}}>
-	<link rel={{asset("stylesheet")}} href={{asset("css/owl.theme.default.min.css")}}>
-	<link rel={{asset("stylesheet")}} href={{asset("css/style.css">
+	<link rel="stylesheet" href={{asset("css/animate.css")}}>
+	<link rel="stylesheet" href={{asset("css/icomoon.css")}}>
+	<link rel="stylesheet" href={{asset("css/themify-icons.css")}}>
+	<link rel="stylesheet" href={{asset("css/bootstrap.css")}}>
+	<link rel="stylesheet" href={{asset("css/magnific-popup.css")}}>
+	<link rel="stylesheet" href={{asset("css/bootstrap-datepicker.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/owl.carousel.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/owl.theme.default.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/style.css")}}>
 	<script src={{asset("js/modernizr-2.6.2.min.js")}}></script>
 
 
@@ -24,7 +24,7 @@
 	
 	
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style={{asset"background-image: url(images/insumo.jpg)")}}>
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url({{asset('images/insumo.jpg')}})">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -101,17 +101,17 @@
 	</div>
 	
 
-	<script src={{asset"js/jquery.min.js")}}></script>
-	<script src={{asset"js/jquery.easing.1.3.js")}}></script>
-	<script src={{asset"js/bootstrap.min.js")}}></script>
-	<script src={{asset"js/jquery.waypoints.min.js")}}></script>
-	<script src={{asset"js/owl.carousel.min.js")}}></script>
-	<script src={{asset"js/jquery.countTo.js")}}></script>
-	<script src={{asset"js/jquery.stellar.min.js")}}></script>
-	<script src={{asset"js/jquery.magnific-popup.min.js")}}></script>
-	<script src={{asset"js/magnific-popup-options.js")}}></script>
-	<script src={{asset"js/bootstrap-datepicker.min.js")}}></script>
-	<script src={{asset"js/main.js")}}></script>
+	<script src={{asset("js/jquery.min.js")}}></script>
+	<script src={{asset("js/jquery.easing.1.3.js")}}></script>
+	<script src={{asset("js/bootstrap.min.js")}}></script>
+	<script src={{asset("js/jquery.waypoints.min.js")}}></script>
+	<script src={{asset("js/owl.carousel.min.js")}}></script>
+	<script src={{asset("js/jquery.countTo.js")}}></script>
+	<script src={{asset("js/jquery.stellar.min.js")}}></script>
+	<script src={{asset("js/jquery.magnific-popup.min.js")}}></script>
+	<script src={{asset("js/magnific-popup-options.js")}}></script>
+	<script src={{asset("js/bootstrap-datepicker.min.js")}}></script>
+	<script src={{asset("js/main.js")}}></script>
 
 	</body>
 </html>

@@ -45,8 +45,8 @@
 		</div>
 	</nav>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style={{asset("background-image: url(images/FONDOADMINISTRATIVO.jpg)")}}>
-		<div class="overlay"></div>
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url({{asset('images/FONDOADMINISTRATIVO.jpg')}})">
+		<div class="overlay"></div>											
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 text-left">

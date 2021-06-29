@@ -6,16 +6,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Enfermeria-Clientes</title>
 	
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href={{asset("css/animate.css")}}> 
+	<link rel="stylesheet" href={{asset("css/icomoon.css")}}>
+	<link rel="stylesheet" href={{asset("css/themify-icons.css")}}>
+	<link rel="stylesheet" href={{asset("css/bootstrap.css")}}>
+	<link rel="stylesheet" href={{asset("css/magnific-popup.css")}}>
+	<link rel="stylesheet" href={{asset("css/bootstrap-datepicker.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/owl.carousel.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/owl.theme.default.min.css")}}>
+	<link rel="stylesheet" href={{asset("css/style.css")}}>
+	<script src={{asset("js/modernizr-2.6.2.min.js")}}></script>
 
 
 	</head>
@@ -44,7 +44,7 @@
 		</div>
 	</nav>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style={{asset"background-image: url(images/FONDOADMINISTRATIVO.jpg)")}}>
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url({{asset('images/FONDOADMINISTRATIVO.jpg')}})">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -58,13 +58,13 @@
 					</div>
 <center>
 	<a href="{{route('patientList')}}">>
-					<button class="btn -info"><font size="4">RESERVAS PENDIENTES</font><br><br><img src={{asset"images/iconreserv.jpg")}} width="150"></button>
+					<button class="btn -info"><font size="4">RESERVAS PENDIENTES</font><br><br><img src={{asset("images/iconreserv.jpg")}} width="150"></button>
 	</a>
 	<a href="{{route('seenurse')}}">				
 					<button class="btn -info"><font size="4">LISTADO DE ENFERMEROS</font><br><br><img src="images/listado.jpg" width="150"></button>
 	</a>
     <a href="{{route('saveinsumo')}}">				
-        <button class="btn -info"><font size="4">INSUMOS</font><br><br><img src={{asset"images/insumos.jpg")}} width="150"></button>
+        <button class="btn -info"><font size="4">INSUMOS</font><br><br><img src={{asset("images/insumos.jpg")}} width="150"></button>
 </a>
 				
 </center>							
@@ -96,17 +96,17 @@
 	</div>
 	
 
-	<script src={{asset"js/jquery.min.js")}}></script>
-	<script src={{asset"js/jquery.easing.1.3.js")}}></script>
-	<script src={{asset"js/bootstrap.min.js")}}></script>
-	<script src={{asset"js/jquery.waypoints.min.js")}}></script>
-	<script src={{asset"js/owl.carousel.min.js")}}></script>
-	<script src={{asset"js/jquery.countTo.js")}}></script>
-	<script src={{asset"js/jquery.stellar.min.js")}}></script>
-	<script src={{asset"js/jquery.magnific-popup.min.js")}}></script>
-	<script src={{asset"js/magnific-popup-options.js")}}></script>
-	<script src={{asset"js/bootstrap-datepicker.min.js")}}></script>
-	<script src={{asset"js/main.js")}}></script>
+	<script src={{asset("js/jquery.min.js")}}></script>
+	<script src={{asset("js/jquery.easing.1.3.js")}}></script>
+	<script src={{asset("js/bootstrap.min.js")}}></script>
+	<script src={{asset("js/jquery.waypoints.min.js")}}></script>
+	<script src={{asset("js/owl.carousel.min.js")}}></script>
+	<script src={{asset("js/jquery.countTo.js")}}></script>
+	<script src={{asset("js/jquery.stellar.min.js")}}></script>
+	<script src={{asset("js/jquery.magnific-popup.min.js")}}></script>
+	<script src={{asset("js/magnific-popup-options.js")}}></script>
+	<script src={{asset("js/bootstrap-datepicker.min.js")}}></script>
+	<script src={{asset("js/main.js")}}></script>
 
 	</body>
 </html>
